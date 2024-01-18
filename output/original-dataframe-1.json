@@ -1,0 +1,972 @@
+{
+    "file_memory_usage": 211.15908432006836,
+    "disk_memory_usage": 859.4271306991577,
+    "column_stats": [
+        {
+            "column": "date",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "int64"
+        },
+        {
+            "column": "number_of_game",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "int64"
+        },
+        {
+            "column": "v_game_number",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "int64"
+        },
+        {
+            "column": "h_game_number",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "int64"
+        },
+        {
+            "column": "v_score",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "int64"
+        },
+        {
+            "column": "h_score",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "int64"
+        },
+        {
+            "column": "length_outs",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "attendance",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "length_minutes",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_at_bats",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_hits",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_doubles",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_triples",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_homeruns",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_rbi",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_sacrifice_hits",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_sacrifice_flies",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_hit_by_pitch",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_walks",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_intentional walks",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_strikeouts",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_stolen_bases",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_caught_stealing",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_grounded_into_double",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_first_catcher_interference",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_left_on_base",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_pitchers_used",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_individual_earned_runs",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_team_earned_runs",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_wild_pitches",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_balks",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_putouts",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_assists",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_errors",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_passed_balls",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_double_plays",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_triple_plays",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_at_bats",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_hits",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_doubles",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_triples",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_homeruns",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_rbi",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_sacrifice_hits",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_sacrifice_flies",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_hit_by_pitch",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_walks",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_intentional walks",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_strikeouts",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_stolen_bases",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_caught_stealing",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_grounded_into_double",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_first_catcher_interference",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_left_on_base",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_pitchers_used",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_individual_earned_runs",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_team_earned_runs",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_wild_pitches",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_balks",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_putouts",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_assists",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_errors",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_passed_balls",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_double_plays",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_triple_plays",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_player_1_def_pos",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_player_2_def_pos",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_player_3_def_pos",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_player_4_def_pos",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_player_5_def_pos",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_player_6_def_pos",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_player_7_def_pos",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_player_8_def_pos",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "v_player_9_def_pos",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_player_1_def_pos",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_player_2_def_pos",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_player_3_def_pos",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_player_4_def_pos",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_player_5_def_pos",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_player_6_def_pos",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_player_7_def_pos",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_player_8_def_pos",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "h_player_9_def_pos",
+            "memory_usage": 1.3116722106933594,
+            "fraction_of_total": 0.0015262168994203068,
+            "dtype": "float64"
+        },
+        {
+            "column": "rf_umpire_id",
+            "memory_usage": 5.246594429016113,
+            "fraction_of_total": 0.006104757741064009,
+            "dtype": "object"
+        },
+        {
+            "column": "forefeit",
+            "memory_usage": 5.249906539916992,
+            "fraction_of_total": 0.006108611599969051,
+            "dtype": "object"
+        },
+        {
+            "column": "protest",
+            "memory_usage": 5.250774383544922,
+            "fraction_of_total": 0.0061096213931172184,
+            "dtype": "object"
+        },
+        {
+            "column": "completion",
+            "memory_usage": 5.251004219055176,
+            "fraction_of_total": 0.006109888821852063,
+            "dtype": "object"
+        },
+        {
+            "column": "lf_umpire_id",
+            "memory_usage": 5.252699851989746,
+            "fraction_of_total": 0.006111861802310791,
+            "dtype": "object"
+        },
+        {
+            "column": "additional_info",
+            "memory_usage": 5.302097320556641,
+            "fraction_of_total": 0.0061693390063719536,
+            "dtype": "object"
+        },
+        {
+            "column": "saving_pitcher_id",
+            "memory_usage": 6.757497787475586,
+            "fraction_of_total": 0.007862793186408083,
+            "dtype": "object"
+        },
+        {
+            "column": "2b_umpire_id",
+            "memory_usage": 8.03277587890625,
+            "fraction_of_total": 0.009346663134047745,
+            "dtype": "object"
+        },
+        {
+            "column": "winning_rbi_batter_id",
+            "memory_usage": 8.57279109954834,
+            "fraction_of_total": 0.009975006365663877,
+            "dtype": "object"
+        },
+        {
+            "column": "day_night",
+            "memory_usage": 8.721405029296875,
+            "fraction_of_total": 0.010147928448805046,
+            "dtype": "object"
+        },
+        {
+            "column": "acquisition_info",
+            "memory_usage": 8.73853874206543,
+            "fraction_of_total": 0.010167864650673163,
+            "dtype": "object"
+        },
+        {
+            "column": "3b_umpire_id",
+            "memory_usage": 8.919730186462402,
+            "fraction_of_total": 0.010378692815068636,
+            "dtype": "object"
+        },
+        {
+            "column": "winning_pitcher_id",
+            "memory_usage": 9.659493446350098,
+            "fraction_of_total": 0.011239456029846237,
+            "dtype": "object"
+        },
+        {
+            "column": "losing_pitcher_id",
+            "memory_usage": 9.659493446350098,
+            "fraction_of_total": 0.011239456029846237,
+            "dtype": "object"
+        },
+        {
+            "column": "v_league",
+            "memory_usage": 9.67278003692627,
+            "fraction_of_total": 0.011254915851978409,
+            "dtype": "object"
+        },
+        {
+            "column": "h_league",
+            "memory_usage": 9.67278003692627,
+            "fraction_of_total": 0.011254915851978409,
+            "dtype": "object"
+        },
+        {
+            "column": "v_player_9_id",
+            "memory_usage": 9.67856502532959,
+            "fraction_of_total": 0.011261647066524327,
+            "dtype": "object"
+        },
+        {
+            "column": "v_player_1_id",
+            "memory_usage": 9.678659439086914,
+            "fraction_of_total": 0.011261756923141547,
+            "dtype": "object"
+        },
+        {
+            "column": "v_player_2_id",
+            "memory_usage": 9.678659439086914,
+            "fraction_of_total": 0.011261756923141547,
+            "dtype": "object"
+        },
+        {
+            "column": "v_player_3_id",
+            "memory_usage": 9.678659439086914,
+            "fraction_of_total": 0.011261756923141547,
+            "dtype": "object"
+        },
+        {
+            "column": "v_player_4_id",
+            "memory_usage": 9.678659439086914,
+            "fraction_of_total": 0.011261756923141547,
+            "dtype": "object"
+        },
+        {
+            "column": "v_player_5_id",
+            "memory_usage": 9.678659439086914,
+            "fraction_of_total": 0.011261756923141547,
+            "dtype": "object"
+        },
+        {
+            "column": "v_player_6_id",
+            "memory_usage": 9.678659439086914,
+            "fraction_of_total": 0.011261756923141547,
+            "dtype": "object"
+        },
+        {
+            "column": "v_player_7_id",
+            "memory_usage": 9.678659439086914,
+            "fraction_of_total": 0.011261756923141547,
+            "dtype": "object"
+        },
+        {
+            "column": "v_player_8_id",
+            "memory_usage": 9.678659439086914,
+            "fraction_of_total": 0.011261756923141547,
+            "dtype": "object"
+        },
+        {
+            "column": "h_player_1_id",
+            "memory_usage": 9.678659439086914,
+            "fraction_of_total": 0.011261756923141547,
+            "dtype": "object"
+        },
+        {
+            "column": "h_player_2_id",
+            "memory_usage": 9.678659439086914,
+            "fraction_of_total": 0.011261756923141547,
+            "dtype": "object"
+        },
+        {
+            "column": "h_player_3_id",
+            "memory_usage": 9.678659439086914,
+            "fraction_of_total": 0.011261756923141547,
+            "dtype": "object"
+        },
+        {
+            "column": "h_player_4_id",
+            "memory_usage": 9.678659439086914,
+            "fraction_of_total": 0.011261756923141547,
+            "dtype": "object"
+        },
+        {
+            "column": "h_player_5_id",
+            "memory_usage": 9.678659439086914,
+            "fraction_of_total": 0.011261756923141547,
+            "dtype": "object"
+        },
+        {
+            "column": "h_player_6_id",
+            "memory_usage": 9.678659439086914,
+            "fraction_of_total": 0.011261756923141547,
+            "dtype": "object"
+        },
+        {
+            "column": "h_player_7_id",
+            "memory_usage": 9.678659439086914,
+            "fraction_of_total": 0.011261756923141547,
+            "dtype": "object"
+        },
+        {
+            "column": "h_player_8_id",
+            "memory_usage": 9.678659439086914,
+            "fraction_of_total": 0.011261756923141547,
+            "dtype": "object"
+        },
+        {
+            "column": "h_player_9_id",
+            "memory_usage": 9.678659439086914,
+            "fraction_of_total": 0.011261756923141547,
+            "dtype": "object"
+        },
+        {
+            "column": "saving_pitcher_name",
+            "memory_usage": 9.689905166625977,
+            "fraction_of_total": 0.011274842066881324,
+            "dtype": "object"
+        },
+        {
+            "column": "day_of_week",
+            "memory_usage": 9.836723327636719,
+            "fraction_of_total": 0.011445674654969743,
+            "dtype": "object"
+        },
+        {
+            "column": "v_name",
+            "memory_usage": 9.836723327636719,
+            "fraction_of_total": 0.011445674654969743,
+            "dtype": "object"
+        },
+        {
+            "column": "h_name",
+            "memory_usage": 9.836723327636719,
+            "fraction_of_total": 0.011445674654969743,
+            "dtype": "object"
+        },
+        {
+            "column": "1b_umpire_id",
+            "memory_usage": 9.873844146728516,
+            "fraction_of_total": 0.011488867169804129,
+            "dtype": "object"
+        },
+        {
+            "column": "winning_rbi_batter_id_name",
+            "memory_usage": 10.017179489135742,
+            "fraction_of_total": 0.011655647269346276,
+            "dtype": "object"
+        },
+        {
+            "column": "v_line_score",
+            "memory_usage": 10.019889831542969,
+            "fraction_of_total": 0.0116588009310244,
+            "dtype": "object"
+        },
+        {
+            "column": "h_line_score",
+            "memory_usage": 10.04749584197998,
+            "fraction_of_total": 0.011690922340101344,
+            "dtype": "object"
+        },
+        {
+            "column": "park_id",
+            "memory_usage": 10.164609909057617,
+            "fraction_of_total": 0.011827192260952414,
+            "dtype": "object"
+        },
+        {
+            "column": "winning_pitcher_name",
+            "memory_usage": 10.178079605102539,
+            "fraction_of_total": 0.011842865138342222,
+            "dtype": "object"
+        },
+        {
+            "column": "losing_pitcher_name",
+            "memory_usage": 10.179338455200195,
+            "fraction_of_total": 0.011844329893238465,
+            "dtype": "object"
+        },
+        {
+            "column": "h_player_5_name",
+            "memory_usage": 10.199379920959473,
+            "fraction_of_total": 0.011867649456984345,
+            "dtype": "object"
+        },
+        {
+            "column": "v_player_5_name",
+            "memory_usage": 10.200413703918457,
+            "fraction_of_total": 0.011868852331459744,
+            "dtype": "object"
+        },
+        {
+            "column": "h_player_9_name",
+            "memory_usage": 10.205986976623535,
+            "fraction_of_total": 0.011875337200864023,
+            "dtype": "object"
+        },
+        {
+            "column": "v_player_9_name",
+            "memory_usage": 10.20608139038086,
+            "fraction_of_total": 0.011875447057481243,
+            "dtype": "object"
+        },
+        {
+            "column": "v_player_6_name",
+            "memory_usage": 10.206557273864746,
+            "fraction_of_total": 0.011876000779218535,
+            "dtype": "object"
+        },
+        {
+            "column": "h_player_6_name",
+            "memory_usage": 10.207189559936523,
+            "fraction_of_total": 0.011876736485655057,
+            "dtype": "object"
+        },
+        {
+            "column": "v_player_4_name",
+            "memory_usage": 10.20849895477295,
+            "fraction_of_total": 0.01187826005267971,
+            "dtype": "object"
+        },
+        {
+            "column": "h_player_4_name",
+            "memory_usage": 10.209063529968262,
+            "fraction_of_total": 0.01187891697305742,
+            "dtype": "object"
+        },
+        {
+            "column": "v_player_3_name",
+            "memory_usage": 10.209311485290527,
+            "fraction_of_total": 0.011879205485385468,
+            "dtype": "object"
+        },
+        {
+            "column": "h_player_3_name",
+            "memory_usage": 10.20934009552002,
+            "fraction_of_total": 0.011879238775269472,
+            "dtype": "object"
+        },
+        {
+            "column": "v_player_2_name",
+            "memory_usage": 10.214816093444824,
+            "fraction_of_total": 0.011885610459068134,
+            "dtype": "object"
+        },
+        {
+            "column": "h_player_2_name",
+            "memory_usage": 10.215215682983398,
+            "fraction_of_total": 0.01188607540778141,
+            "dtype": "object"
+        },
+        {
+            "column": "h_player_8_name",
+            "memory_usage": 10.215256690979004,
+            "fraction_of_total": 0.011886123123281819,
+            "dtype": "object"
+        },
+        {
+            "column": "v_player_8_name",
+            "memory_usage": 10.21541976928711,
+            "fraction_of_total": 0.01188631287562065,
+            "dtype": "object"
+        },
+        {
+            "column": "h_player_7_name",
+            "memory_usage": 10.218122482299805,
+            "fraction_of_total": 0.011889457659996373,
+            "dtype": "object"
+        },
+        {
+            "column": "v_player_7_name",
+            "memory_usage": 10.218398094177246,
+            "fraction_of_total": 0.011889778352545627,
+            "dtype": "object"
+        },
+        {
+            "column": "h_player_1_name",
+            "memory_usage": 10.226960182189941,
+            "fraction_of_total": 0.011899740905165684,
+            "dtype": "object"
+        },
+        {
+            "column": "v_player_1_name",
+            "memory_usage": 10.226961135864258,
+            "fraction_of_total": 0.011899742014828484,
+            "dtype": "object"
+        },
+        {
+            "column": "rf_umpire_name",
+            "memory_usage": 10.328454971313477,
+            "fraction_of_total": 0.01201783676867533,
+            "dtype": "object"
+        },
+        {
+            "column": "lf_umpire_name",
+            "memory_usage": 10.32940673828125,
+            "fraction_of_total": 0.012018944212149914,
+            "dtype": "object"
+        },
+        {
+            "column": "v_starting_pitcher_id",
+            "memory_usage": 10.655055046081543,
+            "fraction_of_total": 0.012397857439540551,
+            "dtype": "object"
+        },
+        {
+            "column": "h_starting_pitcher_id",
+            "memory_usage": 10.655055046081543,
+            "fraction_of_total": 0.012397857439540551,
+            "dtype": "object"
+        },
+        {
+            "column": "hp_umpire_id",
+            "memory_usage": 10.655841827392578,
+            "fraction_of_total": 0.012398772911350704,
+            "dtype": "object"
+        },
+        {
+            "column": "v_manager_id",
+            "memory_usage": 10.656439781188965,
+            "fraction_of_total": 0.01239946866992642,
+            "dtype": "object"
+        },
+        {
+            "column": "h_manager_id",
+            "memory_usage": 10.656439781188965,
+            "fraction_of_total": 0.01239946866992642,
+            "dtype": "object"
+        },
+        {
+            "column": "2b_umpire_name",
+            "memory_usage": 10.790192604064941,
+            "fraction_of_total": 0.01255509887765231,
+            "dtype": "object"
+        },
+        {
+            "column": "3b_umpire_name",
+            "memory_usage": 10.947822570800781,
+            "fraction_of_total": 0.012738511712906424,
+            "dtype": "object"
+        },
+        {
+            "column": "h_starting_pitcher_name",
+            "memory_usage": 11.1295747756958,
+            "fraction_of_total": 0.012949992359028408,
+            "dtype": "object"
+        },
+        {
+            "column": "v_starting_pitcher_name",
+            "memory_usage": 11.12987232208252,
+            "fraction_of_total": 0.012950338573822065,
+            "dtype": "object"
+        },
+        {
+            "column": "1b_umpire_name",
+            "memory_usage": 11.138174057006836,
+            "fraction_of_total": 0.012959998188497673,
+            "dtype": "object"
+        },
+        {
+            "column": "hp_umpire_name",
+            "memory_usage": 11.266121864318848,
+            "fraction_of_total": 0.01310887387875884,
+            "dtype": "object"
+        },
+        {
+            "column": "v_manager_name",
+            "memory_usage": 11.285036087036133,
+            "fraction_of_total": 0.013130881821074901,
+            "dtype": "object"
+        },
+        {
+            "column": "h_manager_name",
+            "memory_usage": 11.285367965698242,
+            "fraction_of_total": 0.013131267983729366,
+            "dtype": "object"
+        }
+    ]
+}

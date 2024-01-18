@@ -1,0 +1,192 @@
+{
+    "file_memory_usage": 483.04862689971924,
+    "disk_memory_usage": 483.3857202529907,
+    "column_stats": [
+        {
+            "column": "MONTH",
+            "memory_usage": 5.5496320724487305,
+            "fraction_of_total": 0.011480753029990638,
+            "dtype": "int8"
+        },
+        {
+            "column": "DAY",
+            "memory_usage": 5.5496320724487305,
+            "fraction_of_total": 0.011480753029990638,
+            "dtype": "int8"
+        },
+        {
+            "column": "DAY_OF_WEEK",
+            "memory_usage": 5.5496320724487305,
+            "fraction_of_total": 0.011480753029990638,
+            "dtype": "int8"
+        },
+        {
+            "column": "DIVERTED",
+            "memory_usage": 5.5496320724487305,
+            "fraction_of_total": 0.011480753029990638,
+            "dtype": "int8"
+        },
+        {
+            "column": "CANCELLED",
+            "memory_usage": 5.5496320724487305,
+            "fraction_of_total": 0.011480753029990638,
+            "dtype": "int8"
+        },
+        {
+            "column": "CANCELLATION_REASON",
+            "memory_usage": 5.550017356872559,
+            "fraction_of_total": 0.011481550083787814,
+            "dtype": "category"
+        },
+        {
+            "column": "AIRLINE",
+            "memory_usage": 5.550950050354004,
+            "fraction_of_total": 0.01148347958530672,
+            "dtype": "category"
+        },
+        {
+            "column": "YEAR",
+            "memory_usage": 11.099138259887695,
+            "fraction_of_total": 0.022961245636463387,
+            "dtype": "int16"
+        },
+        {
+            "column": "FLIGHT_NUMBER",
+            "memory_usage": 11.099138259887695,
+            "fraction_of_total": 0.022961245636463387,
+            "dtype": "int16"
+        },
+        {
+            "column": "SCHEDULED_DEPARTURE",
+            "memory_usage": 11.099138259887695,
+            "fraction_of_total": 0.022961245636463387,
+            "dtype": "int16"
+        },
+        {
+            "column": "DISTANCE",
+            "memory_usage": 11.099138259887695,
+            "fraction_of_total": 0.022961245636463387,
+            "dtype": "int16"
+        },
+        {
+            "column": "SCHEDULED_ARRIVAL",
+            "memory_usage": 11.099138259887695,
+            "fraction_of_total": 0.022961245636463387,
+            "dtype": "int16"
+        },
+        {
+            "column": "ORIGIN_AIRPORT",
+            "memory_usage": 11.177457809448242,
+            "fraction_of_total": 0.02312326852269916,
+            "dtype": "category"
+        },
+        {
+            "column": "DESTINATION_AIRPORT",
+            "memory_usage": 11.177457809448242,
+            "fraction_of_total": 0.02312326852269916,
+            "dtype": "category"
+        },
+        {
+            "column": "TAIL_NUMBER",
+            "memory_usage": 11.519351959228516,
+            "fraction_of_total": 0.023830559068231484,
+            "dtype": "category"
+        },
+        {
+            "column": "DEPARTURE_TIME",
+            "memory_usage": 22.198150634765625,
+            "fraction_of_total": 0.045922230849408885,
+            "dtype": "float32"
+        },
+        {
+            "column": "DEPARTURE_DELAY",
+            "memory_usage": 22.198150634765625,
+            "fraction_of_total": 0.045922230849408885,
+            "dtype": "float32"
+        },
+        {
+            "column": "TAXI_OUT",
+            "memory_usage": 22.198150634765625,
+            "fraction_of_total": 0.045922230849408885,
+            "dtype": "float32"
+        },
+        {
+            "column": "WHEELS_OFF",
+            "memory_usage": 22.198150634765625,
+            "fraction_of_total": 0.045922230849408885,
+            "dtype": "float32"
+        },
+        {
+            "column": "SCHEDULED_TIME",
+            "memory_usage": 22.198150634765625,
+            "fraction_of_total": 0.045922230849408885,
+            "dtype": "float32"
+        },
+        {
+            "column": "ELAPSED_TIME",
+            "memory_usage": 22.198150634765625,
+            "fraction_of_total": 0.045922230849408885,
+            "dtype": "float32"
+        },
+        {
+            "column": "AIR_TIME",
+            "memory_usage": 22.198150634765625,
+            "fraction_of_total": 0.045922230849408885,
+            "dtype": "float32"
+        },
+        {
+            "column": "WHEELS_ON",
+            "memory_usage": 22.198150634765625,
+            "fraction_of_total": 0.045922230849408885,
+            "dtype": "float32"
+        },
+        {
+            "column": "TAXI_IN",
+            "memory_usage": 22.198150634765625,
+            "fraction_of_total": 0.045922230849408885,
+            "dtype": "float32"
+        },
+        {
+            "column": "ARRIVAL_TIME",
+            "memory_usage": 22.198150634765625,
+            "fraction_of_total": 0.045922230849408885,
+            "dtype": "float32"
+        },
+        {
+            "column": "ARRIVAL_DELAY",
+            "memory_usage": 22.198150634765625,
+            "fraction_of_total": 0.045922230849408885,
+            "dtype": "float32"
+        },
+        {
+            "column": "AIR_SYSTEM_DELAY",
+            "memory_usage": 22.198150634765625,
+            "fraction_of_total": 0.045922230849408885,
+            "dtype": "float32"
+        },
+        {
+            "column": "SECURITY_DELAY",
+            "memory_usage": 22.198150634765625,
+            "fraction_of_total": 0.045922230849408885,
+            "dtype": "float32"
+        },
+        {
+            "column": "AIRLINE_DELAY",
+            "memory_usage": 22.198150634765625,
+            "fraction_of_total": 0.045922230849408885,
+            "dtype": "float32"
+        },
+        {
+            "column": "LATE_AIRCRAFT_DELAY",
+            "memory_usage": 22.198150634765625,
+            "fraction_of_total": 0.045922230849408885,
+            "dtype": "float32"
+        },
+        {
+            "column": "WEATHER_DELAY",
+            "memory_usage": 22.198150634765625,
+            "fraction_of_total": 0.045922230849408885,
+            "dtype": "float32"
+        }
+    ]
+}

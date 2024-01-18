@@ -1,0 +1,942 @@
+{
+    "file_memory_usage": 6740.1063413619995,
+    "disk_memory_usage": 29238.92900943756,
+    "column_stats": [
+        {
+            "column": "isNew",
+            "memory_usage": 5.4313154220581055,
+            "fraction_of_total": 0.0001857563052430894,
+            "dtype": "bool"
+        },
+        {
+            "column": "msrp",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "int64"
+        },
+        {
+            "column": "askPrice",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "int64"
+        },
+        {
+            "column": "mileage",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "int64"
+        },
+        {
+            "column": "dealerID",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "int64"
+        },
+        {
+            "column": "vf_Axles",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_BasePrice",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_BatteryA",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_BatteryA_to",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_BatteryCells",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_BatteryKWh",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_BatteryKWh_to",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_BatteryModules",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_BatteryPacks",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_BatteryV",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_BatteryV_to",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_BedLengthIN",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_BusLength",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_CashForClunkers",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_ChargerPowerKW",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_CurbWeightLB",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_DisplacementCC",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_DisplacementCI",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_DisplacementL",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_Doors",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_EngineCycles",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_EngineCylinders",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_EngineHP",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_EngineHP_to",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_EngineKW",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_GCWR",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_GCWR_to",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_GVWR_to",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_ManufacturerId",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_ModelID",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_ModelYear",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_NCSABodyType",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_NCSAMake",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_NCSAMapExcApprovedBy",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_NCSAMapExcApprovedOn",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_NCSAMappingException",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_NCSAModel",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_OtherBusInfo",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_SAEAutomationLevel",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_SAEAutomationLevel_to",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_SeatRows",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_Seats",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_TopSpeedMPH",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_TrackWidth",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_TrailerLength",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_TransmissionSpeeds",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_WheelBaseLong",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_WheelBaseShort",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_WheelSizeFront",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_WheelSizeRear",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_Wheels",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_Windows",
+            "memory_usage": 43.449642181396484,
+            "fraction_of_total": 0.0014860203042105981,
+            "dtype": "float64"
+        },
+        {
+            "column": "vf_OtherTrailerInfo",
+            "memory_usage": 173.7987174987793,
+            "fraction_of_total": 0.005944086305031269,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_ChargerLevel",
+            "memory_usage": 173.81442642211914,
+            "fraction_of_total": 0.005944623565590121,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_AxleConfiguration",
+            "memory_usage": 173.82153415679932,
+            "fraction_of_total": 0.005944866657075376,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_EVDriveUnit",
+            "memory_usage": 173.82719326019287,
+            "fraction_of_total": 0.005945060203952272,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_OtherMotorcycleInfo",
+            "memory_usage": 173.8808364868164,
+            "fraction_of_total": 0.005946894854824957,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_AdaptiveHeadlights",
+            "memory_usage": 173.9001750946045,
+            "fraction_of_total": 0.005947556254145768,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_DriverAssist",
+            "memory_usage": 173.9001750946045,
+            "fraction_of_total": 0.005947556254145768,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_PossibleValues",
+            "memory_usage": 174.0769500732422,
+            "fraction_of_total": 0.005953602131495812,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_LowerBeamHeadlampLightSource",
+            "memory_usage": 174.16716957092285,
+            "fraction_of_total": 0.00595668772665053,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_RearCrossTrafficAlert",
+            "memory_usage": 174.21315670013428,
+            "fraction_of_total": 0.005958260531495624,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_BatteryInfo",
+            "memory_usage": 174.44091987609863,
+            "fraction_of_total": 0.005966050255116857,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_NCSANote",
+            "memory_usage": 174.44433975219727,
+            "fraction_of_total": 0.005966167218227836,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_BatteryType",
+            "memory_usage": 174.55874729156494,
+            "fraction_of_total": 0.005970080068090796,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_SuggestedVIN",
+            "memory_usage": 174.98013401031494,
+            "fraction_of_total": 0.005984491906452385,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_EDR",
+            "memory_usage": 175.79724311828613,
+            "fraction_of_total": 0.006012437837977697,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_AutomaticPedestrianAlertingSound",
+            "memory_usage": 176.43354415893555,
+            "fraction_of_total": 0.0060341999565711665,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_AdditionalErrorText",
+            "memory_usage": 176.6784543991089,
+            "fraction_of_total": 0.006042576126577061,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_Trim2",
+            "memory_usage": 177.63277912139893,
+            "fraction_of_total": 0.006075214966460082,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_ElectrificationLevel",
+            "memory_usage": 178.37695121765137,
+            "fraction_of_total": 0.0061006663807718796,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_WheelBaseType",
+            "memory_usage": 179.21081256866455,
+            "fraction_of_total": 0.006129185255411372,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_BrakeSystemDesc",
+            "memory_usage": 179.7354040145874,
+            "fraction_of_total": 0.00614712679649017,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_DestinationMarket",
+            "memory_usage": 180.2476863861084,
+            "fraction_of_total": 0.006164647355172591,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_EntertainmentSystem",
+            "memory_usage": 181.13643264770508,
+            "fraction_of_total": 0.006195043347491934,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_Series2",
+            "memory_usage": 182.21242904663086,
+            "fraction_of_total": 0.00623184347784481,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_Pretensioner",
+            "memory_usage": 184.97771167755127,
+            "fraction_of_total": 0.006326418851314469,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_ParkAssist",
+            "memory_usage": 186.61306476593018,
+            "fraction_of_total": 0.006382349528113576,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_CoolingType",
+            "memory_usage": 188.13184547424316,
+            "fraction_of_total": 0.006434293315378246,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_AirBagLocSeatCushion",
+            "memory_usage": 188.47021293640137,
+            "fraction_of_total": 0.006445865813880122,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_MakeID",
+            "memory_usage": 190.7108449935913,
+            "fraction_of_total": 0.006522497624042072,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_PedestrianAutomaticEmergencyBraking",
+            "memory_usage": 191.3993558883667,
+            "fraction_of_total": 0.006546045370765393,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_FuelTypeSecondary",
+            "memory_usage": 193.3126049041748,
+            "fraction_of_total": 0.006611480360370879,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_AdaptiveDrivingBeam",
+            "memory_usage": 200.09747505187988,
+            "fraction_of_total": 0.006843529562498464,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_AdaptiveCruiseControl",
+            "memory_usage": 204.10637760162354,
+            "fraction_of_total": 0.006980637954821921,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_Turbo",
+            "memory_usage": 205.4787712097168,
+            "fraction_of_total": 0.007027575159931255,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_LaneKeepSystem",
+            "memory_usage": 207.35558700561523,
+            "fraction_of_total": 0.007091764097744014,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_CAN_AACN",
+            "memory_usage": 210.2529649734497,
+            "fraction_of_total": 0.007190857261070867,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_CIB",
+            "memory_usage": 210.72254753112793,
+            "fraction_of_total": 0.007206917444312417,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_LaneDepartureWarning",
+            "memory_usage": 211.1586446762085,
+            "fraction_of_total": 0.007221832393657511,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_ForwardCollisionWarning",
+            "memory_usage": 213.82193088531494,
+            "fraction_of_total": 0.00731291938963629,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_BlindSpotMon",
+            "memory_usage": 217.7880392074585,
+            "fraction_of_total": 0.007448564177475934,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_KeylessIgnition",
+            "memory_usage": 222.507719039917,
+            "fraction_of_total": 0.007609981848791292,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_Note",
+            "memory_usage": 225.2175006866455,
+            "fraction_of_total": 0.007702659034260495,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_AutoReverseSystem",
+            "memory_usage": 235.82993507385254,
+            "fraction_of_total": 0.008065614680952671,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_DaytimeRunningLight",
+            "memory_usage": 235.99201202392578,
+            "fraction_of_total": 0.00807115787133495,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_SemiautomaticHeadlampBeamSwitching",
+            "memory_usage": 236.433931350708,
+            "fraction_of_total": 0.008086271944994748,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_DynamicBrakeSupport",
+            "memory_usage": 237.95103454589844,
+            "fraction_of_total": 0.00813815835966817,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_TractionControl",
+            "memory_usage": 239.72428798675537,
+            "fraction_of_total": 0.008198805363540458,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_RearVisibilitySystem",
+            "memory_usage": 241.7998743057251,
+            "fraction_of_total": 0.008269792447858759,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_ESC",
+            "memory_usage": 242.64459991455078,
+            "fraction_of_total": 0.008298682890752649,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_ABS",
+            "memory_usage": 247.1470127105713,
+            "fraction_of_total": 0.008452669816695362,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_TransmissionStyle",
+            "memory_usage": 247.91307163238525,
+            "fraction_of_total": 0.008478869781870787,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_BrakeSystemType",
+            "memory_usage": 247.9143295288086,
+            "fraction_of_total": 0.008478912803160073,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_Trim",
+            "memory_usage": 248.01341342926025,
+            "fraction_of_total": 0.008482301569568708,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_AirBagLocKnee",
+            "memory_usage": 248.59395217895508,
+            "fraction_of_total": 0.008502156563214592,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_BedType",
+            "memory_usage": 249.9484395980835,
+            "fraction_of_total": 0.008548481359129353,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_FuelInjectionType",
+            "memory_usage": 259.1482000350952,
+            "fraction_of_total": 0.008863122173573764,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_EngineManufacturer",
+            "memory_usage": 260.97887325286865,
+            "fraction_of_total": 0.008925732990036383,
+            "dtype": "object"
+        },
+        {
+            "column": "interiorColor",
+            "memory_usage": 270.9972620010376,
+            "fraction_of_total": 0.00926837169424252,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_ValveTrainDesign",
+            "memory_usage": 276.67615032196045,
+            "fraction_of_total": 0.009462595235025763,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_OtherEngineInfo",
+            "memory_usage": 278.43034744262695,
+            "fraction_of_total": 0.00952259049408947,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_EngineConfiguration",
+            "memory_usage": 282.39922046661377,
+            "fraction_of_total": 0.009658329837439077,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_BodyCabType",
+            "memory_usage": 283.1820869445801,
+            "fraction_of_total": 0.009685104637491213,
+            "dtype": "object"
+        },
+        {
+            "column": "stockNum",
+            "memory_usage": 285.708532333374,
+            "fraction_of_total": 0.009771511543434261,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_SteeringLocation",
+            "memory_usage": 286.3449459075928,
+            "fraction_of_total": 0.009793277510785984,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_AirBagLocCurtain",
+            "memory_usage": 293.2721366882324,
+            "fraction_of_total": 0.010030194217906267,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_PlantState",
+            "memory_usage": 303.51220893859863,
+            "fraction_of_total": 0.010380414714938184,
+            "dtype": "object"
+        },
+        {
+            "column": "color",
+            "memory_usage": 309.50427532196045,
+            "fraction_of_total": 0.01058534925208993,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_TPMS",
+            "memory_usage": 313.3023281097412,
+            "fraction_of_total": 0.010715246376110953,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_EngineModel",
+            "memory_usage": 315.0548801422119,
+            "fraction_of_total": 0.010775185371547653,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_ActiveSafetySysNote",
+            "memory_usage": 317.7674140930176,
+            "fraction_of_total": 0.01086795668851108,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_Series",
+            "memory_usage": 319.2956886291504,
+            "fraction_of_total": 0.010920225173982607,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_OtherRestraintSystemInfo",
+            "memory_usage": 322.4542589187622,
+            "fraction_of_total": 0.011028251370448022,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_SeatBeltsAll",
+            "memory_usage": 331.5824670791626,
+            "fraction_of_total": 0.011340445026975388,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_PlantCompanyName",
+            "memory_usage": 337.2906551361084,
+            "fraction_of_total": 0.01153567064741803,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_PlantCity",
+            "memory_usage": 339.0729637145996,
+            "fraction_of_total": 0.011596627345863308,
+            "dtype": "object"
+        },
+        {
+            "column": "brandName",
+            "memory_usage": 342.61554050445557,
+            "fraction_of_total": 0.011717786940618388,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_Make",
+            "memory_usage": 342.61554050445557,
+            "fraction_of_total": 0.011717786940618388,
+            "dtype": "object"
+        },
+        {
+            "column": "modelName",
+            "memory_usage": 344.6970205307007,
+            "fraction_of_total": 0.011788975595496043,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_Model",
+            "memory_usage": 344.6970205307007,
+            "fraction_of_total": 0.011788975595496043,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_DriveType",
+            "memory_usage": 346.4765577316284,
+            "fraction_of_total": 0.011849837510115192,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_FuelTypePrimary",
+            "memory_usage": 349.5458097457886,
+            "fraction_of_total": 0.011954808934108508,
+            "dtype": "object"
+        },
+        {
+            "column": "firstSeen",
+            "memory_usage": 363.88982486724854,
+            "fraction_of_total": 0.01244538829550817,
+            "dtype": "object"
+        },
+        {
+            "column": "lastSeen",
+            "memory_usage": 363.88982486724854,
+            "fraction_of_total": 0.01244538829550817,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_PlantCountry",
+            "memory_usage": 375.35661220550537,
+            "fraction_of_total": 0.012837563649624448,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_BusFloorConfigType",
+            "memory_usage": 384.5284643173218,
+            "fraction_of_total": 0.013151249972022097,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_BusType",
+            "memory_usage": 384.5284643173218,
+            "fraction_of_total": 0.013151249972022097,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_MotorcycleChassisType",
+            "memory_usage": 385.46882247924805,
+            "fraction_of_total": 0.013183411141865997,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_MotorcycleSuspensionType",
+            "memory_usage": 385.4689140319824,
+            "fraction_of_total": 0.013183414273059151,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_CustomMotorcycleType",
+            "memory_usage": 385.471697807312,
+            "fraction_of_total": 0.013183509480901022,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_TrailerType",
+            "memory_usage": 385.5654230117798,
+            "fraction_of_total": 0.0131867149746603,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_TrailerBodyType",
+            "memory_usage": 385.566237449646,
+            "fraction_of_total": 0.013186742829232743,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_AirBagLocSide",
+            "memory_usage": 400.9508104324341,
+            "fraction_of_total": 0.01371291028830152,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_GVWR",
+            "memory_usage": 420.05682468414307,
+            "fraction_of_total": 0.014366354682435863,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_VehicleType",
+            "memory_usage": 438.24757194519043,
+            "fraction_of_total": 0.014988496049350358,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_BodyClass",
+            "memory_usage": 442.8551664352417,
+            "fraction_of_total": 0.015146080292212469,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_Manufacturer",
+            "memory_usage": 443.8942337036133,
+            "fraction_of_total": 0.015181617410143027,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_AirBagLocFront",
+            "memory_usage": 446.3125419616699,
+            "fraction_of_total": 0.01526432592033764,
+            "dtype": "object"
+        },
+        {
+            "column": "vin",
+            "memory_usage": 657.1740598678589,
+            "fraction_of_total": 0.022475996287543237,
+            "dtype": "object"
+        },
+        {
+            "column": "vf_VIN",
+            "memory_usage": 657.1740598678589,
+            "fraction_of_total": 0.022475996287543237,
+            "dtype": "object"
+        }
+    ]
+}
